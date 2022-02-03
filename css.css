@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+   
+}
+.x1{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    justify-content: space-between;
+    /* justify-content: center; */
+    background-color: aqua;
+    border: 1px solid;
+    width: 100%;
+    height: 50vh;
+    border-color: aqua;
+}
+.com{
+    width: 20%;
+    height: 10vh;
+    background-color: blueviolet;
+    color: blueviolet;
+    border: 2px solid;
+}
+.com2,.com4{
+    align-self: center;
+}
+.com3{
+    align-self: flex-end;
+}
+.com10,.com6{
+    align-self: flex-end;
+
+}
+.com7,.com9{
+    align-self: center;
+}
